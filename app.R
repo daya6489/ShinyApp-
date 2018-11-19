@@ -7,7 +7,7 @@ path = "https://github.com/daya6489/ShinyApp-/"
 #   message('Browser path: ', browser.path)
 #   shell(sprintf('"%s" --app=%s', browser.path, appUrl))
 # }
-load(file.path("Shiny_input.rdata"))
+load("Shiny_input.rdata")
 #shiny::runApp(file.path(path, "shiny"), launch.browser=launch.browser)
 shiny::runApp(launch.browser=T)
 # shiny::runApp('./shiny/', launch.browser=T)
