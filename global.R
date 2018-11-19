@@ -3,6 +3,6 @@ library(shinydashboard)
 library(dplyr)
 library(data.table)
 library(ggplot2)
-library(devtools
+library(devtools)
         
 load("Shiny_input.rdata")        
