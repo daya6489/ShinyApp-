@@ -1,4 +1,4 @@
-path = "https://github.com/daya6489/ShinyApp-/tree/master/Apps/" 
+path = "https://github.com/daya6489/ShinyApp-/" 
 #message('library paths:\n', paste('... ', .libPaths(), sep='', collapse='\n'))
 
 #chrome.portable = file.path(path,'GoogleChromePortable/App/Chrome-bin/chrome.exe')
@@ -7,8 +7,9 @@ path = "https://github.com/daya6489/ShinyApp-/tree/master/Apps/"
 #   message('Browser path: ', browser.path)
 #   shell(sprintf('"%s" --app=%s', browser.path, appUrl))
 # }
-load(file.path("Apps/Shiny_input.rdata"))
+load(file.path("Shiny_input.rdata"))
 #shiny::runApp(file.path(path, "shiny"), launch.browser=launch.browser)
-shiny::runApp(file.path("Apps"), launch.browser=T)
+shiny::runApp(launch.browser=T)
 # shiny::runApp('./shiny/', launch.browser=T)
 
+runGitHub( "ShinyApp-", "daya6489") 
