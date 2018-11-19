@@ -6,3 +6,5 @@ library(ggplot2)
 library(devtools)
         
 load("Shiny_input.rdata")        
+
+shiny::runApp(launch.browser=T)
